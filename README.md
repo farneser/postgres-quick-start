@@ -6,7 +6,7 @@ Simple start with postgresql with docker and pgadmin that you can you use in loc
 
 ### Run docker container
 
-```
+```bash
 docker-compose -f postgresql-docker-compose.yml up
 ```
 
@@ -36,3 +36,17 @@ You can add your local server with 4 steps
     5. In field "Password" enter `postgres_password`
     6. Select field "Save password?"
 4. Enjoy
+
+## Default connection string
+
+### JBDC
+
+``` postgresql
+jdbc:postgresql://localhost:5432/postgresdb?user=postgres_user&password=postgres_password
+```
+
+### Entity framework
+
+```efcore
+Host=localhost;Port=5432;Database=postgresdb;Username=postgres_user;Password=postgres_password;IncludeErrorDetail=True"
+```
