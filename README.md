@@ -7,7 +7,7 @@ Simple start with postgresql with docker and pgadmin that you can you use in loc
 ### Run docker container
 
 ```bash
-docker-compose -f postgresql-docker-compose.yml up
+sudo docker-compose up -d
 ```
 
 ### PgAdmin
