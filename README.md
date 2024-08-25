@@ -16,7 +16,7 @@ PgAdmin start on `http://localhost:5050`
 
 Default user
 
-* Login: `admin`
+* Login: `admin@email.com`
 * Password: `admin`
 
 ### PgAdmin add server
